@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-26 22:14:17 by Eclipse SUMO sumo Version 1.24.0
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="pallaswiesenstrasse.net.actuated.xml"/>
+        <route-files value="pallaswiesenstrasse_0.5.rou.xml"/> <!-- Mögliche Werte: LEER, 0.75, 0.5 -->
+        <additional-files value="pallaswiesenstrasse.add.xml"/>
+    </input>
+
+    <time>
+        <step-length value="1"/>
+    </time>
+
+    <!-- INSERTION-VERHALTEN -->
+    <processing>
+        <extrapolate-departpos value="true"/>
+        <eager-insert value="true"/>
+        <step-method.ballistic value="true"/>
+        <waiting-time-memory value="300"/>
+        <time-to-teleport value="-1"/> <!-- Deaktiviert das Teleportieren von Fahrzeugen, die zu lange warten -->
+    </processing>
+
+</sumoConfiguration>

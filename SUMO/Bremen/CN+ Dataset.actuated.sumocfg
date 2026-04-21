@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue 08 Nov 2022 10:01:40 AM UTC by Eclipse SUMO GUI Version 1.4.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>            
+        <net-file value='CN+_Dataset.net.actuated.xml'/>
+        <route-files value='Bremen.rou.xml'/>
+        <additional-files value='CN+_Dataset.add.xml'/>
+    </input>
+
+    <processing>
+        <step-method.ballistic value="true"/> 
+        <waiting-time-memory value="300"/>
+        <time-to-teleport value="-1"/> <!-- Deaktiviert das Teleportieren von Fahrzeugen, die zu lange warten -->
+    </processing>
+
+</configuration>

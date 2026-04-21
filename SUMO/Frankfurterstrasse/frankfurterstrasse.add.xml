@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="ost_west_post_light_detector_1" lane="-E0_0" pos="15" file="out.xml"/>
+    <inductionLoop id="ost_west_post_light_detector_2" lane="-E0_1" pos="15" file="out.xml"/>
+    <inductionLoop id="sued_nord_post_light_detector_1" lane="E2.10_0" pos="5" file="out.xml"/>
+    <inductionLoop id="sued_nord_post_light_detector_2" lane="E2.10_1" pos="5" file="out.xml"/>
+    <inductionLoop id="nord_sued_post_light_detector_1" lane="E5.12_0" pos="5" file="out.xml"/>
+    <inductionLoop id="nord_sued_post_light_detector_2" lane="E5.12_1" pos="5" file="out.xml"/>
+    <inductionLoop id="west_ost_post_light_detector_1" lane="-E3_0" pos="15" file="out.xml"/>
+    <inductionLoop id="west_ost_post_light_detector_2" lane="-E3_1" pos="15" file="out.xml"/>
+</additional>

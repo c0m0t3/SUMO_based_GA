@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="busStop_251393900#2_0_3" lane="251393900#2_0" startPos="117.15" endPos="127.15"/>
+    <busStop id="busStop_251393901#3_0_2" lane="251393901#3_0" startPos="34.41" endPos="44.41"/>
+    <busStop id="busStop_33557890#1_0_1" lane="33557890#1_0" startPos="14.21" endPos="24.21"/>
+    <busStop id="busStop_56043685#1_0_0" lane="56043685#1_0" startPos="21.01" endPos="31.01"/>
+    <busStop id="busStop_86860823_0_4" lane="86860823_0" startPos="8.29" endPos="18.29"/>
+    <inductionLoop id="ost_west_pre_light_detector_1" lane="428260946#1_0" pos="4" file="out.xml"/>
+    <inductionLoop id="ost_west_pre_light_detector_2" lane="428260946#1_1" pos="4" file="out.xml"/>
+    <inductionLoop id="ost_west_post_light_detector_1" lane="56043685#0_0" pos="2" file="out.xml"/>
+    <inductionLoop id="ost_west_post_light_detector_2" lane="56043685#0_1" pos="2" file="out.xml"/>
+    <inductionLoop id="sued_nord_pre_light_detector_1" lane="26925581#0_0" pos="11.5" file="out.xml"/>
+    <inductionLoop id="sued_nord_post_light_detector_1" lane="86865230#1_0" pos="10" file="out.xml"/>
+    <inductionLoop id="sued_nord_post_nord_light_detector" lane="86860823_0" pos="5" file="out.xml"/>
+    <inductionLoop id="nord_sued_pre_nord_light_detector" lane="-86860823_0" pos="29" file="out.xml"/>
+    <inductionLoop id="nord_sued_pre_light_detector_1" lane="189004526#0_0" pos="14" file="out.xml"/>
+    <inductionLoop id="nord_sued_post_light_detector_1" lane="-26925581#0_0" pos="10" file="out.xml"/>
+    <inductionLoop id="west_ost_pre_light_detector_1" lane="118227930_1" pos="2" file="out.xml"/>
+    <inductionLoop id="west_ost_pre_light_detector_2" lane="118227930_0" pos="2" file="out.xml"/>
+    <inductionLoop id="west_ost_post_light_detector_1" lane="33557890#0_1" pos="4" file="out.xml"/>
+    <inductionLoop id="west_ost_post_light_detector_2" lane="33557890#0_0" pos="4" file="out.xml"/>
+</additional>
