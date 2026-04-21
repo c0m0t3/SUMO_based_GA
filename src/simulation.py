@@ -67,8 +67,8 @@ class IntersectionConfig:
 @dataclass
 class GAParams:
     """Parameter für den genetischen Algorithmus."""
-    generations: int = 10
-    population_size: int = 16
+    generations: int = 200
+    population_size: int = 96
     mutation_rate: float = 0.10
     crossover_rate: float = 0.95
     elitism_count: int = 1
@@ -118,7 +118,7 @@ INTERSECTIONS: Dict[str, IntersectionConfig] = {
             "GGGGrrrrrrrrrrrrrr", # 6: Nord-GRL
             "rrrrrrrrrGGGGrrrrr", # 7: Sued-GRL
         ),
-        all_red_time=2,
+        all_red_time=3,
     ),
     "pallaswiesen": IntersectionConfig(
         name="pallaswiesen",
@@ -129,7 +129,7 @@ INTERSECTIONS: Dict[str, IntersectionConfig] = {
             "GGGrrrrrGG", # 0: West-G & Ost-G
             "rrrGGGGGrr", # 1: Sued-RL
         ),
-        all_red_time=2,
+        all_red_time=3,
     ),
     "bremen": IntersectionConfig(
         name="bremen",
